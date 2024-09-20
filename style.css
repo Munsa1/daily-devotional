@@ -11,10 +11,10 @@
 }
 
 body {
-    color: rgb(0, 0, 0);
+    background-color: #fffdfd;
 }
 
-/*Reusable Classes*/
+/*Reusable Classes  #b3a9a9*/
 
 .d-flex {
     display: flex;
