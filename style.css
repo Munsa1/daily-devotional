@@ -20,6 +20,10 @@ body {
     display: flex;
 }
 
+.left-margin {
+    margin-left: 16px;
+}
+
 /*Reusable Classes End*/
 
 .hero {
@@ -33,7 +37,28 @@ body {
     align-items: center;
 }
 
+.hero-image-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 16px;
+}
+
+.image-text {
+    font-style: oblique;
+    font-size: 10px;
+}
+
 .hero-image {
     margin: 0 20px;
+}
+
+.hero-audio {
 
 }
+
+.devotional h1 {
+
+}
+
+
+
