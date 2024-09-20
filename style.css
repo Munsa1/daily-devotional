@@ -20,8 +20,16 @@ body {
     display: flex;
 }
 
+.app-color-1 {
+    color: #af0f0f;
+}
+
 .left-margin {
     margin-left: 16px;
+}
+
+.right-margin {
+    margin-right: 16px;
 }
 
 /*Reusable Classes End*/
@@ -46,6 +54,7 @@ body {
 .image-text {
     font-style: oblique;
     font-size: 10px;
+    text-align: right;
 }
 
 .hero-image {
@@ -56,8 +65,29 @@ body {
 
 }
 
-.devotional h1 {
+.devotional-heading {
+    font-size: .875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
+.devotional h2 {
+    font-size: 26px;
+    padding: 6px 0;
+    margin-right: 100px;
+    line-height: 25px;
+    margin-top: 8px;
+    margin-bottom: 6px;
+}
+
+.devotional p {
+    margin-right: 16px;
+    margin-bottom: 10px;
+}
+
+.devotional span {
+    font-size: .875rem;
+    line-height: 1.25;
 }
 
 
