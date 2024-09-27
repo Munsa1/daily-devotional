@@ -123,13 +123,29 @@ body {
     font-weight: 600;
 }
 
+.socials-header {
+    text-align: center;
+    margin-top: 16px;
+    font-style: oblique;
+    font-weight: 500;
+}
+
+.underline {
+    border: #af0f0f 1px dotted;
+}
+.social-links {
+
+}
+
 .socials {
-    margin-top: 20px;
+    margin-top: 10px;
     align-items: center;
+    margin-bottom: 20px;
+    margin-left: 50px;
 }
 
 .socials li a {
-    margin-right: 36px;
+    margin-right: 50px;
     font-size: 30px;
 }
 
