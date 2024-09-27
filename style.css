@@ -39,10 +39,15 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .mobile-view {
     margin: 20px 0px 20px 0px;
     justify-content: space-around;
     align-items: center;
+}
+
+.mobile-view a span {
+    font-weight: 600;
 }
 
 .hero-image-container {
@@ -90,5 +95,41 @@ body {
     line-height: 1.25;
 }
 
+.line-break::before {
+    height: 12px;
+    width: 100%;
+    background: linear-gradient(135deg, white 35%, transparent 25%) -25px 0, linear-gradient(225deg, white 35%, transparent 25%) -25px 0, linear-gradient(315deg, white 35%, transparent 25%), linear-gradient(45deg, white 35%, transparent 25%);
+    background-color: #b42525;
+    display: block;
+    content: "";
+    background-size: 16px 31px;
+    background-repeat: repeat-x;
 
+}
+
+.line-break {
+    line-height: 10px;
+}
+
+.bottom-line {
+    line-height: 10px;
+}
+
+.devotional-text {
+    display: grid;
+}
+.verse {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.socials {
+    margin-top: 20px;
+    align-items: center;
+}
+
+.socials li a {
+    margin-right: 36px;
+    font-size: 30px;
+}
 
