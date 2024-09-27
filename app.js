@@ -1,9 +1,11 @@
 
-
 let currentDate = moment().format("MMMM DD YYYY");
 
 document.getElementById('devotionDate').innerText = currentDate;
 
+
+
+// Fetch verse from API
 fetch('https://bible-api.com/john3:16')
 .then(res =>{
     return res.json();
@@ -31,6 +33,9 @@ fetch('https://bible-api.com/john3:16')
 //     })
     
 // })
+
+
+
 
 
 
