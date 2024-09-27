@@ -123,6 +123,10 @@ body {
     font-weight: 600;
 }
 
+.verse a:hover {
+    color: #af0f0f;
+}
+
 .socials-header {
     text-align: center;
     margin-top: 16px;
