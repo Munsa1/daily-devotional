@@ -16,6 +16,10 @@ body {
 
 /*Reusable Classes  #b3a9a9*/
 
+.hovereffect:hover {
+    text-decoration: dotted;
+}
+
 .d-flex {
     display: flex;
 }
@@ -160,7 +164,7 @@ body {
 
 /*Popup*/
 .popup-container {
-    display: flex;
+    display: none;
     position: fixed;
     z-index: 1;
     left: 0;
@@ -249,6 +253,15 @@ body {
 
     .desktop-logo {
         height: 30px;
+    }
+
+    .hover-effect:hover {
+        text-decoration: underline;
+
+    }
+
+    .button-effect {
+
     }
 
   }
