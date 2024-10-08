@@ -155,8 +155,8 @@ body {
 
 
 /*Popup*/
-popup-container {
-    display: none;
+.popup-container {
+    display: flex;
     position: fixed;
     z-index: 1;
     left: 0;

@@ -34,6 +34,14 @@ fetch('https://bible-api.com/john3:16')
     
 // })
 
+const displayVerse = document.getElementById('verse');
+
+displayVerse.addEventListener('click', ()=>{
+
+    const dailyVerse = document.querySelector('popup-container');
+    dailyVerse.style.display = 'block';
+})
+
 
 
 
