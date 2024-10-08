@@ -1,4 +1,5 @@
 
+// Add current date
 let currentDate = moment().format("MMMM DD YYYY");
 
 document.getElementById('devotionDate').innerText = currentDate;
@@ -23,24 +24,32 @@ fetch('https://bible-api.com/john3:16')
 .catch(error => console.log(error));
 
 
-// const verse = document.getElementById('verse');
 
-// verse.addEventListener('click', ()=>{
-//     data.forEach(verse =>{
-//         const markup = `<p>${verse.text}</p>`;
-//         document.querySelector('pop-up-verse').insertAdjacentHTML('beforeend', markup);
 
-//     })
-    
-// })
 
-const displayVerse = document.getElementById('verse');
 
-displayVerse.addEventListener('click', ()=>{
+// Get the popup, button, and close elements
+const popup = document.getElementById('popup');
+const openPopupBtn = document.getElementById('verse');
+const closePopupBtn = document.getElementById('closePopup');
 
-    const dailyVerse = document.querySelector('popup-container');
-    dailyVerse.style.display = 'block';
-})
+// Show the popup when the button is clicked
+openPopupBtn.addEventListener('click', () => {
+  popup.style.display = 'flex';  // Use flex to center the popup
+});
+
+// Close the popup when the close button is clicked
+closePopupBtn.addEventListener('click', () => {
+  popup.style.display = 'none';
+});
+
+// Close the popup if user clicks outside the content area
+window.addEventListener('click', (event) => {
+  if (event.target === popup) {
+    popup.style.display = 'none';
+  }
+});
+
 
 
 
