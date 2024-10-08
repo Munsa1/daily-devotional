@@ -20,6 +20,10 @@ body {
     display: flex;
 }
 
+.d-align {
+    align-items: center;
+}
+
 .app-color-1 {
     color: #af0f0f;
 }
@@ -163,9 +167,14 @@ body {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7); /* Background with transparency */
+    background-color: rgba(0, 0, 0, 0.7);
     justify-content: center;
     align-items: center;
+    transition: ease-in 3s;
+  }
+
+  .verse-dash {
+  
   }
   
   /* Popup content */
@@ -191,9 +200,9 @@ body {
   
   /* Close button (X) */
   .close-btn {
-    position: absolute;
-    top: 30%;
-    right: 30px;
+    position: relative;
+    top: 1%;
+    right: -45%;
     font-size: 26px;
     color: #555;
     cursor: pointer;
@@ -204,3 +213,42 @@ body {
   }
 
   /*End*/
+
+  .desktop-view {
+    display: none;
+  }
+
+  @media (min-width: 675px){
+
+    .mobile-view {
+        display: none;
+    }
+
+    .desktop-view {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 16px ;
+        margin-bottom: 12px;
+        padding: 6px;
+    }
+
+    .mid-part ul {
+        align-items: center;
+    }
+
+    .li a {
+        margin-right: 12px;
+    }
+
+    .li a img {
+        margin-right: 12px;
+    }
+
+    
+
+    .desktop-logo {
+        height: 30px;
+    }
+
+  }
