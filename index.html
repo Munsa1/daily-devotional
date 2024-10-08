@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Devotional</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/539abef2cf.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="mobile-view d-flex">
+                <a href="index.html"><i class="fa-solid fa-bars"></i></a>
+                <a href="index.html"><span>Church Name</span></a>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-image-container">
+                <div id="hero-image">    
+                    <img src="images/Mountains.avif" />                
+                </div>
+            </div>
+            <span class="image-text left-margin">
+               Snow Covered Mountains
+            </span>
+            <div class="hero-audio">
+                <audio src="" controls></audio>
+            </div>
+        </section>
+        <section class="devotional">
+            <h1 class="left-margin"><strong class="app-color-1 devotional-heading">Daily Devotion</strong> </h1>
+            <h2 class="left-margin">God's Patience</h2>
+            <p class="left-margin">God is slow to anger and gives us time to repent. But he loves us too much to let us continue in sin</p>
+            <span class="left-margin" id="devotionDate">Devotinal date</span>
+            <div class="left-margin right-margin line-break"></div>
+        </section>
+        <section class="devotional-text">
+            <!-- End of PopUp -->
+            <div id="popup" class="popup-container">
+                <div class="popup-content">
+                  <span class="close-btn" id="closePopup">&times;</span>
+                  <h2>Bible Verse of the Day</h2>
+                  <p id="verseText">"For I know the plans I have for you," declares the Lord, "plans to prosper you and not to harm you, plans to give you hope and a future." - Jeremiah 29:11</p>
+                </div>
+              </div>
+              <!-- End of PopUp -->
+            <!-- <div class="pop-up-verse" id="verseText">verse goes here</div> -->
+            <span class="verse left-margin"><a href="" id="verse">John 3:16</a></span>
+            <div class="devotion-paragraph left-margin right-margin">
+                Have you ever heard someone deny that Jesus claimed to be God? Such a statement shows a weak understanding of Scripture. Repeatedly, Jesus placed Himself on equal footing with both the Father and the Holy Spirit (John 10:30).
+<br />
+<br />
+Why is it important for us to believe this? Because Jesus did something that had never been done before: He enabled us to see God in a new way. In Colossians 1:15, Paul explains that Jesus is the “image of the invisible God.” No one has ever looked upon the face of the Almighty. In the Old Testament, some people were confronted with God, but they were never able to look fully upon Him in all His glory. In fact, even Moses, who is called a friend of God (Exodus 33:11), could not look directly at His face (Exodus 33:18-23).
+<br />
+<br />
+The reason Jesus came, however, was to bridge the gap between God’s glory and mankind’s sinful nature. In the original Greek text, the word for “image” is directly related to the English word icon and means “likeness, image, or portrait.” As the “icon,” Jesus is the exact, flawless, in-the-flesh representation of God. That’s why He could say, “The one who has seen Me has seen the Father” (John 14:9).
+<br />
+<br />
+What has Jesus taught you about the Father? Think about how to share that insight with someone today.
+            </div>
+            <span class="socials-header">follow us on </span>
+            <div class="underline"></div>
+            <div class="social-links d-flex">
+                <ul class="d-flex socials">
+                    <li><a href="https://web.facebook.com/munsa.mibenge.9/"  target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://x.com/MibengeMunsa"  target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.youtube.com/@munsamibenge6307"  target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/munsa-mibenge/"  target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <script src="lib/moment/moment.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

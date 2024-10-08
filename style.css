@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    font-style: normal;
+}
+
+body {
+    background-color: #fffdfd;
+}
+
+/*Reusable Classes  #b3a9a9*/
+
+.d-flex {
+    display: flex;
+}
+
+.app-color-1 {
+    color: #af0f0f;
+}
+
+.left-margin {
+    margin-left: 16px;
+}
+
+.right-margin {
+    margin-right: 16px;
+}
+
+/*Reusable Classes End*/
+
+.hero {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-view {
+    margin: 20px 0px 20px 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mobile-view a span {
+    font-weight: 600;
+}
+
+.hero-image-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 16px;
+}
+
+.image-text {
+    font-style: oblique;
+    font-size: 10px;
+    text-align: right;
+}
+
+.hero-image {
+    margin: 0 20px;
+}
+
+.hero-audio {
+
+}
+
+.devotional-heading {
+    font-size: .875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.devotional h2 {
+    font-size: 26px;
+    padding: 6px 0;
+    margin-right: 100px;
+    line-height: 25px;
+    margin-top: 8px;
+    margin-bottom: 6px;
+}
+
+.devotional p {
+    margin-right: 16px;
+    margin-bottom: 10px;
+}
+
+.devotional span {
+    font-size: .875rem;
+    line-height: 1.25;
+}
+
+.line-break::before {
+    height: 12px;
+    width: 100%;
+    background: linear-gradient(135deg, white 35%, transparent 25%) -25px 0, linear-gradient(225deg, white 35%, transparent 25%) -25px 0, linear-gradient(315deg, white 35%, transparent 25%), linear-gradient(45deg, white 35%, transparent 25%);
+    background-color: #b42525;
+    display: block;
+    content: "";
+    background-size: 16px 31px;
+    background-repeat: repeat-x;
+
+}
+
+.line-break {
+    line-height: 10px;
+}
+
+.bottom-line {
+    line-height: 10px;
+}
+
+.devotional-text {
+    display: grid;
+}
+.verse {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.verse a:hover {
+    color: #af0f0f;
+}
+
+.socials-header {
+    text-align: center;
+    margin-top: 16px;
+    font-style: oblique;
+    font-weight: 500;
+}
+
+.underline {
+    border: #af0f0f 1px dotted;
+}
+.social-links {
+
+}
+
+.socials {
+    margin-top: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.socials li a {
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+
+/*Popup*/
+.popup-container {
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Background with transparency */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Popup content */
+  .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%; /* Responsive width for mobile */
+    max-width: 400px; /* Limit the width on larger screens */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .popup-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .popup-content p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Close button (X) */
+  .close-btn {
+    position: absolute;
+    top: 30%;
+    right: 30px;
+    font-size: 26px;
+    color: #555;
+    cursor: pointer;
+  }
+  
+  .close-btn:hover {
+    color: #000;
+  }
+
+  /*End*/
