@@ -51,11 +51,13 @@ body {
 
 /*Reusable Classes End*/
 
+
+/*Mobile Menu Styling*/
+
 .mobile-nav-container {
     position: fixed;
     width: 100%;
     background-color: #fff;
-
 }
 
 .mobile-view {
@@ -65,9 +67,12 @@ body {
     padding-bottom: 10px;
 }
 
-.mobile-view a span {
-    font-weight: 600;
+.mobile-view a i {
+    font-size: 26px;
 }
+
+/*End of Mobile Menu Styling*/
+
 
 .hero {
     flex-direction: column;
@@ -78,7 +83,6 @@ body {
 .hero-image-container {
     display: flex;
     flex-direction: column;
-    margin: 0 16px;
 }
 
 .image-text {
@@ -87,8 +91,9 @@ body {
     text-align: right;
 }
 
-.hero-image {
-    margin: 0 20px;
+#hero-image {
+    margin: 10px 16px;
+    padding-top: 54px; 
 }
 
 .hero-audio {
@@ -237,11 +242,6 @@ body {
   .footer {
     
   }
-
-
-
-
-
 
   /*End*/
 
