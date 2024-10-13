@@ -291,12 +291,42 @@ body {
 
 .contact-us {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-us img {
+    width: 30%;
+    margin: 0 40px;
 }
 
 .contact-us h2 {
+    font-size: 28px;
+    line-height: 28px;
 
 }
 
+.contact-us p {
+    /* margin: 0 24px; */
+}
+
+.signup-form {
+    flex-direction: column;
+    width: 90%;
+    margin-top: 16px;
+}
+
+.signup-form form {
+    flex-direction: column;
+}
+
+.signup-form form input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
 
 
 
