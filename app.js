@@ -13,7 +13,11 @@ fetch('https://bible-api.com/john3:16')
 .then(data =>{
     const verse = data.text;
     const verseBin = document.getElementById('verseText');
-    verseBin.innerText = verse;   
+    verseBin.innerText = verse;
+    
+    const verseName = data.reference;
+    const verseNameElement = document.getElementById('dailyVerse');
+    verseNameElement.innerText = verseName;
 })
 .catch(error => console.log(error));
 
