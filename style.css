@@ -287,7 +287,15 @@ body {
 /*End of Bounce Effect*/
 
 
+/*Start of Contact us Styling*/
 
+.contact-us {
+    flex-direction: column;
+}
+
+.contact-us h2 {
+
+}
 
 
 
