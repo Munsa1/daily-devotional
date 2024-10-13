@@ -37,6 +37,10 @@ body {
     color: #0e0e0f;
 }
 
+.white {
+    color: #fff;
+}
+
 .left-margin {
     margin-left: 16px;
 }
@@ -302,13 +306,11 @@ body {
 }
 
 .contact-us h2 {
+    margin-top: 60px;
     font-size: 28px;
     line-height: 28px;
-
-}
-
-.contact-us p {
-    /* margin: 0 24px; */
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .signup-form {
@@ -323,11 +325,26 @@ body {
 
 .signup-form form input {
     width: 100%;
-    padding: 12px 20px;
+    padding: 8px 8px;
     margin: 8px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
+form button {
+    padding: 8px 8px;
+    font-size: 16px;
+    color: #3498db;
+    font-weight: bolder;
+    outline: none;
+    margin-top: 8px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+
 
 
 
