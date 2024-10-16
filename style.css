@@ -85,6 +85,7 @@ body {
     z-index: 20;
     opacity: 0.8;
     transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: gb-popup-scale-blur 3s both;
   
     /* transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; */
@@ -120,6 +121,7 @@ body {
     background-color: #112c8f82;
     backdrop-filter: blur(3px);
     z-index: 5;
+    animation: gb-popup-scale-blur 3s both;
   }
 
 /*Mobile Menu Styling*/
@@ -333,6 +335,31 @@ body {
   .close-btn:hover {
     color: #ec3333;
   }
+
+/*Scale with blur animation*/
+
+.visible-section .gb-popup-scale-blur,
+.visible-lightbox .gb-popup-scale-blur {
+ animation: gb-popup-scale-blur 1s both;
+}
+
+@keyframes gb-popup-scale-blur {
+    0% {opacity: 0;transform-origin: 50% 50%;transform: scale(2, 2);filter: blur(90px);}
+    100% {opacity: 1;transform-origin: 50% 50%;transform: scale(1, 1);filter: blur(0px);}
+   }
+    
+
+   
+
+
+/*End of Scale with blur animation*/
+
+
+
+
+
+
+
 
 /*Bounce Effect*/
 
