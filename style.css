@@ -433,6 +433,14 @@ form button {
 
 /*Start of Footer Styling*/
 
+.footer-container {
+    background-color: #122a57;
+}
+
+.footer-wrap {
+    flex-direction: column;
+}
+
 
 
 
