@@ -50,7 +50,3 @@ window.addEventListener('click', (event) => {
 
 
 
-
-
-
-
