@@ -23,7 +23,7 @@ fetch('https://bible-api.com/john3:16')
 .catch(error => console.log(error));
 
 
-
+//This is code for the bible verse popup
 
 // Get the popup, button, and close elements
 const popup = document.getElementById('popup');
@@ -47,6 +47,8 @@ window.addEventListener('click', (event) => {
   }
 });
 
+
+// This is code for the mobile menu pop up
 
 
 
