@@ -71,6 +71,56 @@ body {
 
 /*Reusable Classes End*/
 
+/**/
+
+.my-links {
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #122a57;
+    background-image: url("img/mobile-menu-2.jpg");
+    z-index: 20;
+    opacity: 0.8;
+    transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  
+    /* transform: translate3d(0, -100%, 0);
+    transition: all 0.5s ease-out; */
+  }
+  
+  .my-links i {
+    flex-direction: row;
+    margin-left: 90%;
+    margin-top: 25px;
+    color: #fff;
+    font-size: 25px;
+  }
+  
+  .my-links a {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 32px;
+    margin: 0 24px;
+    padding-bottom: 5px;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #112c8f82;
+    backdrop-filter: blur(3px);
+    z-index: 5;
+  }
 
 /*Mobile Menu Styling*/
 
