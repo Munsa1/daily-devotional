@@ -77,3 +77,7 @@ menuLinks.forEach((link) => {
     section.scrollIntoView({ behavior: 'smooth' });
   });
 });
+
+
+
+// This is code for search icon
