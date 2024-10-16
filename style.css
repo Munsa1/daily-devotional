@@ -439,6 +439,7 @@ form button {
 
 .footer-wrap {
     flex-direction: column;
+    padding-bottom: 80px;
 }
 
 .footer {
@@ -456,27 +457,9 @@ form button {
     justify-content: space-between;
 }
 
-.footer-icons li a {
-    /* margin-right: 12px; */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .footer {
-    
-  }
+/* .footer-icons li a {
+    margin-right: 12px;
+} */
 
   /*End*/
 
