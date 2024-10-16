@@ -441,6 +441,24 @@ form button {
     flex-direction: column;
 }
 
+.footer {
+    margin-top: 39px;
+}
+
+.footer-address {
+    line-height: 20px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.footer-icons {
+    list-style: none;
+    justify-content: space-between;
+}
+
+.footer-icons li a {
+    /* margin-right: 12px; */
+}
 
 
 
