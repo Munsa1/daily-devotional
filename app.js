@@ -67,13 +67,13 @@ closeBar.addEventListener('click', () => {
   myLinks.classList.add('hidden');
 });
 
-// menuLinks.forEach((link) => {
-//   link.addEventListener('click', (e) => {
-//     e.preventDefault();
-//     myLinks.classList.add('hidden');
-//     overlay.classList.add('hidden');
-//     const sectionId = link.getAttribute('href');
-//     const section = document.querySelector(sectionId);
-//     section.scrollIntoView({ behavior: 'smooth' });
-//   });
-// });
+menuLinks.forEach((link) => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+    myLinks.classList.add('hidden');
+    overlay.classList.add('hidden');
+    const sectionId = link.getAttribute('href');
+    const section = document.querySelector(sectionId);
+    section.scrollIntoView({ behavior: 'smooth' });
+  });
+});
