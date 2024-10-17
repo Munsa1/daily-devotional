@@ -71,7 +71,44 @@ body {
 
 /*Reusable Classes End*/
 
-/**/
+/*Search bar Styling*/
+
+.form {
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+    margin-top: 30px;
+}
+
+/* .search-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container button {
+    width: 16px;
+    height: 15px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .my-links {
     flex-direction: column;
