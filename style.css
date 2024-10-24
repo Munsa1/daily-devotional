@@ -133,7 +133,7 @@ body {
     background-color: #112c8f82;
     backdrop-filter: blur(3px);
     z-index: 5;
-    animation: gb-popup-scale-blur 3s both;
+    animation: gb-popup-scale-blur 0.2s both;
   }
 
 /*Mobile Menu Styling*/
@@ -158,6 +158,8 @@ body {
 
 /*End of Mobile Menu Styling*/
 
+/*Start of Search Bar Styling*/
+
 .search-container {
     flex-direction: column;
     align-items: center;
@@ -172,7 +174,7 @@ body {
     z-index: 20;
     opacity: 0.8;
     transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-    animation: gb-popup-scale-blur 3s both;
+    animation: gb-popup-scale-blur 2s both;
 }
 
 .close-btn-container {
@@ -191,6 +193,7 @@ body {
     background-color: white;
     padding-left: 10px;
     padding-right: 10px;
+    margin-top: 20px;
     width: 80%;
     max-width: 400px;
     position: relative;
@@ -211,6 +214,7 @@ body {
     box-sizing: border-box;
 }
 
+/*End of Search Bar Styling*/
 
 /*Hero Section Styling*/
 
@@ -240,6 +244,7 @@ body {
     width: 100%;
 
 }
+
 .hero-audio {
 
 }

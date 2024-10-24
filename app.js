@@ -81,3 +81,18 @@ menuLinks.forEach((link) => {
 
 // This is code for search icon
 
+// Select the search container and toggle buttons
+const searchContainer = document.getElementById('searchContainer');
+const closeSearch = document.getElementById('closeSearch');
+const openSearch = document.getElementById('openSearch');
+
+// Function to toggle the search bar visibility
+function toggleSearch() {
+    searchContainer.classList.toggle('hidden');
+}
+
+// Event listener for the close icon
+closeSearch.addEventListener('click', toggleSearch);
+
+// Event listener for the open button (optional)
+openSearch.addEventListener('click', toggleSearch);

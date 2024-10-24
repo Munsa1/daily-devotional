@@ -14,7 +14,7 @@
         <div class="mobile-nav-container">
             <div class="mobile-view d-flex app-margin">
                 <a href="#"><i class="fa-solid fa-bars"></i></a>
-                <a href="#"><i class="fa-solid fa-magnifying-glass" id="searchIcon"></i></a>
+                <a href="#"><i class="fa-solid fa-magnifying-glass" id="openSearch"></i></a>
             </div>
         </div>
         <nav>
@@ -42,7 +42,7 @@
                 </div>
             </div>
         </nav>
-        <!-- Mobile Menu On Click -->
+        <!-- Start of Mobile Menu On Click -->
         </div>
         <div class="my-links d-flex hidden gb-popup-scale-blur">
             <div class="close-btn-container d-flex">
@@ -58,18 +58,17 @@
             </ul>     
         </div>
         <div class="overlay hidden gb-popup-scale-blur"></div>
-        <!-- Search Popup-->
-        <div class="gb-popup-scale-blur search-container d-flex hidden">
+        <!-- Start of Search Popup-->
+        <div class="gb-popup-scale-blur search-container d-flex hidden" id="searchContainer">
             <div class="close-btn-container d-flex">
-                <i class="fa-solid fa-xmark close-btn-style"></i>
+                <i class="fa-solid fa-xmark close-btn-style" id="closeSearch"></i>
             </div> 
-            <!-- <div class="search-bar-container d-flex"> -->
             <div class="search-bar d-flex">
                 <i class="fa-solid fa-magnifying-glass white"></i>
                 <input type="text" >
             </div>
-            <!-- </div>            -->
         </div>
+         <!-- End of Search Popup-->
     </header>
     <main>
         <section class="hero">
