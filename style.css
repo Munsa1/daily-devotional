@@ -183,19 +183,32 @@ body {
 
 }
 
-.search-bar-container {
-    /* align-items: center;
-    justify-content: center;
-    min-height: 90%; */
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 80%;
+    max-width: 400px;
+    position: relative;
 }
 
 .search-bar i {
-    /* top: 0;
-    left: 0; */
+    color: #aaa;
+    font-size: 20px;
+    margin-right: 10px;
 }
 
 .search-bar input {
-
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
 }
 
 
