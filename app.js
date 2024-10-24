@@ -85,6 +85,7 @@ menuLinks.forEach((link) => {
 const searchContainer = document.getElementById('searchContainer');
 const closeSearch = document.getElementById('closeSearch');
 const openSearch = document.getElementById('openSearch');
+const openSearch2 = document.getElementById('openSearch2');
 
 // Function to toggle the search bar visibility
 function toggleSearch() {
@@ -96,3 +97,5 @@ closeSearch.addEventListener('click', toggleSearch);
 
 // Event listener for the open button (optional)
 openSearch.addEventListener('click', toggleSearch);
+
+openSearch2.addEventListener('click', toggleSearch);

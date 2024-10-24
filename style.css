@@ -619,6 +619,19 @@ form button {
 
   @media (min-width: 1024px){
 
+    /*Desktop Reusable Classes*/
+
+    .bold-links {
+        font-weight: 600;
+    }
+
+    .font-size-links {
+        font-size: 36px;
+    }
+
+
+    /*End of Desktop Reusable Classes*/
+
     .mobile-view {
         display: none;
     }
