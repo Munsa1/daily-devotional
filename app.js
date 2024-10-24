@@ -80,13 +80,4 @@ menuLinks.forEach((link) => {
 
 
 // This is code for search icon
-const searchBar = document.getElementById('searchIcon');
-searchBar.addEventListener('click', ()=>{
-  overlay.classList.remove('hidden')
-  myLinks.classList.remove('hidden')
 
-  // Hide the mobile menu links
-  document.querySelectorAll('.link').forEach(element => {
-    element.classList.add('hidden');
-  });
-})
