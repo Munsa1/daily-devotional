@@ -99,3 +99,9 @@ closeSearch.addEventListener('click', toggleSearch);
 openSearch.addEventListener('click', toggleSearch);
 
 openSearch2.addEventListener('click', toggleSearch);
+
+
+// Form validation Front End handling
+const signupForm = document.getElementById('')
+
+

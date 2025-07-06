@@ -13,6 +13,9 @@ body {
 
 /*Reusable Classes  #b3a9a9*/
 
+.hidden {
+    display: none;
+}
 .hovereffect:hover {
     text-decoration: dotted;
 }
@@ -437,6 +440,15 @@ body {
 
 /*End of Bounce Effect*/
 
+
+
+
+
+#hero-image {
+    margin: 10px 16px;
+    padding-top: 4px; 
+}
+
 /*Start of Contact us Styling*/
 
 .contact-us {
@@ -645,11 +657,15 @@ form button {
         justify-content: space-between;
         align-items: center;
         margin-top: 16px ;
-        margin-bottom: 12px;
+        /* margin-bottom: 12px; */
         padding: 6px;
     }
 
     .mid-part ul {
+        align-items: center;
+    }
+
+    .right-part ul {
         align-items: center;
     }
 
@@ -669,6 +685,15 @@ form button {
         text-decoration: underline;
     }
 
+    .donate-btn {
+        color: #fff;
+        background-color: #122a57;
+        padding: 6px 16px;
+        border-radius: 6px;
+    }
+
+
+    /*Hero Section Styling*/
     .hero {
         margin: 0 160px;
     }
